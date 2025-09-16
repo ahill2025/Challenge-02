@@ -27,7 +27,7 @@ Now that our colors are set up, begin by creating a sphere GameObject and place 
 
 All GameObjects are children to the main body (in this case, 'Main Kirby'), thus scaling and position values are dependent of the former.Drag your 'Pink' material to color your object.
 
-
+--
 The following are the scaling and position values for the 'Main Kirby''s left leg:
 
 - Position:
