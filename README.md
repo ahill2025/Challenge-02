@@ -635,6 +635,7 @@ Next, modify arm and leg position and scaling values to design a floating (jumpi
 ---
 
 The next step in our challenge is to create a terrain and populate it with our Kirby variants.  Our terrain will be created using a heighmap of a section in Puerto Rico.  
+
 First, we need a grayscale image of the terrain to be copied.  For this, Tangram Heightmapper application is used.  
 <img width="1538" height="815" alt="Download Terrain Tools" src="https://github.com/user-attachments/assets/fe190c81-ad90-44b4-b5dc-de681e33a223" />
 <br><br>
