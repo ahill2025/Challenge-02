@@ -2,9 +2,9 @@
 Contains process to completing Challenge 02
 
 The task for challenge 02 is to create a Kirby model, along with variants and place them in a terrain built with a heightmap.
-<br>
+<br />
 Before we proceed in creating our Kirbies, we're going to need colors to color our finished PreFab and Variants.
-<br><br>
+<br />
 For this, we can go to the assets pane, right-click and select Create->Material.
 
 <img width="369" height="800" alt="New Material" src="https://github.com/user-attachments/assets/a7973f05-d89a-45a6-b490-e652a8f8b225" />
@@ -41,7 +41,7 @@ The following are the scaling and position values for the 'Main Kirby''s left le
   - Red 
 <br>
 After setting these values, copy ‘Left Leg’ object, call it 'Right Leg', and change x-position value to 0.28 and y-axis rotation to -25˚.  
-<br>
+<br />
 Create another sphere GameObject for the arm, call it ‘Right Arm’. Use the following scaling and position values:
 
 - Position:
