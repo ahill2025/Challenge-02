@@ -349,8 +349,8 @@ The scaling and position values for all sphere objects used are presented below.
    
   - Color:  Yellow-Green
 <br>
-For the leaf projectiles, create an spherical object called 'Leaf Projectile' resembling those of the crown pieces and add a stem using a cube object called 'Stem'.  Make the 'Stem' object a child object to 'Leaf Projectile' and modify they y-position value to -0.303.  These were the scaling values for the projectiles, position values are not included since these are not as restricting (can be loose with placement):
-<br>
+For the leaf projectiles, create an spherical object called 'Leaf Projectile' resembling those of the crown pieces and add a stem using a cube object called 'Stem'.  Make the 'Stem' object a child object to 'Leaf Projectile' and modify they y-position value to -0.303. These were the scaling values for the projectiles, position values are not included since these are not as restricting (can be loose with placement):
+
 - ‘Projectile’  
   - Scaling:  
     - x = 0.3  
@@ -384,7 +384,7 @@ Create a sphere GameObject, call it ‘Coat’:
 - Color: Indigo (including both arm objects)
 <br>
 Then create sphere objects for the coat shearling. Copy and paste this object with the following scaling values and position them to create a circle encompassing your Freeze Kirby.  
-<br>
+
 - Scaling Values:  
   - x = 0.35  
   - y = 0.35  
