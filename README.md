@@ -388,7 +388,7 @@ Create a sphere GameObject, call it ‘Coat’:
  
 - Color: Indigo (including both arm objects)
 <br>
-Then create sphere objects for the coat shearling. Copy and paste this object with the following scaling values and position them to create a circle encompassing your Freeze Kirby.  
+Then create sphere objects for coat shearling. Copy and paste this object with the following scaling values and position them to create a circle encompassing your Freeze Kirby.  
 
 - Scaling Values:  
   - x = 0.35  
