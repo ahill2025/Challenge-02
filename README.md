@@ -1,11 +1,11 @@
 # Challenge-02
 Contains process to completing Challenge 02
 
-## Creating your Base Kirby
-Choose a sphere GameObject and place it on position (0,0,0) and keep scaling values at (1,1,1).  
+The task for challenge 02 is to create a Kirby model, along with variants and place them in a terrain built with a heightmap.
+Begin by creating a sphere GameObject and place it on position (0,0,0) and keep scaling values at (1,1,1).   All GameObjects are children to the main body (in this case, 'Main Kirby'), thus scaling and position values are dependent of the former.  
 
-Copy the sphere object once and scale it to act as Kirby’s foot, call it **‘Left Leg’**.  
-The following are the scaling and position values for the standard Kirby’s left leg:
+Copy the sphere object once and scale it to act as the leg, call it **‘Left Leg’**.  
+The following are the scaling and position values for the **'Main Kirby'**'s left leg:
 
 - Position:
   - x = -0.28  
@@ -20,7 +20,7 @@ The following are the scaling and position values for the standard Kirby’s lef
 
 After setting these values, copy **‘Left Leg’** object and change x-position value to 0.28 and y-axis rotation to -25˚.  
 
-Create another sphere GameObject for Kirby’s arm, call it **‘Right Arm’**. Use the following scaling and position values:
+Create another sphere GameObject for the arm, call it **‘Right Arm’**. Use the following scaling and position values:
 
 - Position:
   - x = 0.455  
@@ -49,7 +49,7 @@ Create capsule GameObject for right eye called **‘Right Eye’**. These are th
   - y = 0.1125  
   - z = 0.1  
 
-Copy ‘Right Eye’ object, call it ‘Left Eye’, and change x-position to -0.1. 
+Copy **‘Right Eye’** object, call it **‘Left Eye’**, and change x-position to -0.1. 
 
 Finally, create a sphere object for the right eye's pupil, call it **'Right Pupil'**.  Apply the following values to position object adequately.  
 - Position:
@@ -72,9 +72,9 @@ The challenge asks to create four Kirby variants:
 - Sleeping Kirby  
 - Mini Kirby  
 
-<><><>
+---
 
-'Leaf Kirby'
+**Leaf Kirby**
 
 Drag Main Kirby PreFab to Scene and position it at (0,0,0). Modify leg and arm objects position values to simulate a jumping animation.  
 
@@ -109,7 +109,7 @@ Drag Main Kirby PreFab to Scene and position it at (0,0,0). Modify leg and arm o
   - Rotation in y-axis = -65˚  
   - Rotation in z-axis = 6.5˚  
 
-Copy ‘Left Eye’ capsule object to create left brow, call the new object **‘Left Brow’**.  
+Copy **‘Left Eye’** capsule object to create left brow, call the new object **‘Left Brow’**.  
 Change scaling and position values to the following:
 
 - ‘Left Brow’
@@ -123,12 +123,13 @@ Change scaling and position values to the following:
     - y = 0.11  
     - z = 0.075  
 
-For right brow, copy ‘Left Brow’ object and change x-position value to 0.146 and z-rotation to -65˚.  
+For right brow, copy **‘Left Brow’** object and change x-position value to 0.146 and z-rotation to -65˚.  
+To create the pupils, follow the same instructions as with **'Main Kirby'**
 
 Next various steps are related to creating the leaf crown, which is comprised of sphere objects with different scaling values.  
 The scaling and position values for all sphere objects used are presented below.  
 
-Leaf Crown Objects
+**Leaf Crown Objects**
 
 - ‘Main Leaf’  
   - Position:  
@@ -283,15 +284,26 @@ Leaf Crown Objects
     - y = 0.62  
     - z = 0.05  
 
-- Leaf Projectiles  
+For the leaf projectiles, create an spherical object called **'Leaf Projectile'** resembling those of the crown pieces and add a stem using a cube object called **'Stem'**.  Make the **'Stem'** object a child object to **'Leaf Projectile'** and modify they y-position value to -0.303.  These were the scaling values for the projectiles, position values are not included since these are not as restricting (can be loose with placement):
+- ‘Projectile’  
+  - Scaling:  
+    - x = 0.3  
+    - y = 0.5  
+    - z = 0.025
+   
+- ‘Stem’   
+  - Scaling:  
+    - x = 0.1  
+    - y = 0.057  
+    - z = 0.2 
 
 
 
-'Freeze Kirby'
+**Freeze Kirby**
 
 Drag Main Kirby PreFab to Scene and position it at (0,0,0).  
 
-Create a sphere GameObject, call it ‘Coat’:  
+Create a sphere GameObject, call it **‘Coat’**:  
 - Position:  
   - x = 0  
   - y = 0  
@@ -343,7 +355,7 @@ Then create sphere objects for the coat shearling. Copy and paste this object wi
     - z = 0.4  
 
 
-'Sleeping Kirby'
+**Sleeping Kirby**
 
 Drag Main Kirby PreFab to Scene and position it at (0,0,0).  
 Modify leg, arm, and eye objects scaling and position values to design Kirby sleeping.    
@@ -372,7 +384,11 @@ Modify leg, arm, and eye objects scaling and position values to design Kirby sle
   - Scaling:  
     - x = 0.16  
     - y = 0.0075  
-    - z = 0.045  
+    - z = 0.045
+   
+
+To create the pupils, follow the same instructions as with **'Main Kirby'**
+
 
 - ‘Right Arm’  
   - Position:  
@@ -426,7 +442,7 @@ Modify leg, arm, and eye objects scaling and position values to design Kirby sle
     - y = 0.4  
     - z = 0.8  
 
-Create a capsule game object for hat rim.  Rename the object to ‘Rim’.  Following are the scaling and position values:
+Create a capsule game object for hat rim.  Rename the object to **‘Rim’**.  Following are the scaling and position values:
 
 
 - ‘Rim’ (Capsule)  
@@ -455,7 +471,7 @@ Next, create the beanie by creating a sphere game object.  Input the position an
     - z = 0.8218
    
 
-Now, create the game object called ‘Pom Pom’ for the little ball above the beanie with the following position and scaling values.
+Now, create the game object called **‘Pom Pom’** for the little ball above the beanie with the following position and scaling values.
 
 
 - ‘Pom Pom’ (Sphere)  
@@ -470,7 +486,7 @@ Now, create the game object called ‘Pom Pom’ for the little ball above the b
 
 
 
-'Mini Kirby'
+**Mini Kirby**
 
 For the last Kirby variant, take the Main Kirby prefab, drag it onto the scene and scale all values down to (0.25, 0.25, 0.25).  
 Next, modify arm and leg position and scaling values to design a floating (jumping) Kirby.  
