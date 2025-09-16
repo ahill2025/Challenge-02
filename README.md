@@ -582,8 +582,8 @@ You can simulate snoring bubbles by simply creating symmetrical spherical object
 ---
 **Mini Kirby**
 
-For the last Kirby variant, take the Main Kirby prefab, drag it onto the scene and scale all values down to (0.25, 0.25, 0.25).  
-Next, modify arm and leg position and scaling values to design a floating (jumping) Kirby.  
+For the last Kirby variant, take the 'Main Kirby' prefab, drag it onto the scene and scale all values down to (0.25, 0.25, 0.25).  
+Next, modify arm and leg position and scaling values to simulate a floating (jumping) animation.  
 
 - ‘Right Leg’  
   - Position:  
