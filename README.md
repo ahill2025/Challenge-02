@@ -22,7 +22,7 @@ Our project required the following colors:
   - Chartreuse Green
   - Yellow-Green
 
-Now that our colors are set up, begin by creating a sphere GameObject and place it on position (0,0,0) and keep scaling values at (1,1,1). Drag your 'Pink' material to color Kirby.  All GameObjects are children to the main body (in this case, 'Main Kirby'), thus scaling and position values are dependent of the former.  Copy the sphere object once and scale it to act as the leg, call it ‘Left Leg’.  
+Now that our colors are set up, begin by creating a sphere GameObject and place it on position (0,0,0) and keep scaling values at (1,1,1). Drag your 'Pink' material to color your object.  All GameObjects are children to the main body (in this case, 'Main Kirby'), thus scaling and position values are dependent of the former.  Copy the sphere object once and scale it to act as the leg, call it ‘Left Leg’.  
 <br>
 The following are the scaling and position values for the 'Main Kirby''s left leg:
 
