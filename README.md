@@ -30,15 +30,16 @@ After setting these values, copy ‘Left Leg’ object and change x-position val
 
 
 Like with Kirby’s legs, copy ‘Right Arm’ object and change x-position to -0.455, y-axis rotation to 22˚, and z-axis rotation to 11˚ to obtain symmetrical placing of arms.  Finally, create a capsule GameObject for right eye called ‘Right Eye’.  These are the scaling and position values used for Kirby:
+
  *	Position:
-  -	x = 0.1
-  -	y = 0.1
-  -	z = 0.4625
-  -	Rotation in x-axis = -11˚
+   -	x = 0.1
+   -	y = 0.1
+   -	z = 0.4625
+   -	Rotation in x-axis = -11˚
  *	Scaling:
-  -	x = 0.11
-  -	y = 0.1125
-  -	z = 0.1
+   -	x = 0.11
+   -	y = 0.1125
+   -	z = 0.1
 
 
 Copy ‘Right Eye’ object, call it ‘Left Eye’, and change x-position to -0.1.
@@ -52,45 +53,45 @@ Leaf Kirby:
 Drag Main Kirby PreFab to Scene and position it at (0,0,0).  Modify leg and arm objects position values to simulate a jumping animation.  
 
  *	‘Right Leg’ Position:
-  -	x = 0.215
-  -	y = -0.325
-  -	z = 0.26
-  -	Rotation in x-axis = -16.325˚
-  -	Rotation in y-axis = 25˚
+   -	x = 0.215
+   -	y = -0.325
+   -	z = 0.26
+   -	Rotation in x-axis = -16.325˚
+   -	Rotation in y-axis = 25˚
  *	‘Left Leg’ Position:
-  -	x = -0.2
-  -	y = -0.33
-  -	z = 0.225
-  -	Rotation in x-axis = 139˚
-  -	Rotation in y-axis = 32˚
-  -	Rotation in z-axis = 45.5˚
+   -	x = -0.2
+   -	y = -0.33
+   -	z = 0.225
+   -	Rotation in x-axis = 139˚
+   -	Rotation in y-axis = 32˚
+   -	Rotation in z-axis = 45.5˚
  *	‘Right Arm’ Position:
-  -	x = -0.2
-  -	y = -0.33
-  -	z = 0.225
-  -	Rotation in x-axis = 139˚
-  -	Rotation in y-axis = 32˚
-  -	Rotation in z-axis = 45.5˚
+   -	x = -0.2
+   -	y = -0.33
+   -	z = 0.225
+   -	Rotation in x-axis = 139˚
+   -	Rotation in y-axis = 32˚
+   -	Rotation in z-axis = 45.5˚
  *	‘Left Arm’ Position:
-  -	x = -0.47
-  -	y = -0.015
-  -	z = -0.115
-  -	Rotation in x-axis = 24.6˚
-  -	Rotation in y-axis = -65˚
-  -	Rotation in z-axis = 6.5˚
+   -	x = -0.47
+   -	y = -0.015
+   -	z = -0.115
+   -	Rotation in x-axis = 24.6˚
+   -	Rotation in y-axis = -65˚
+   -	Rotation in z-axis = 6.5˚
 
 
 Copy ‘Left Eye’ capsule object to create left brow, call the new object ‘Left Brow’.  Change scaling and position values to the following:
  *	‘Left Brow’ 
-  -	Position:
-   *	x = -0.146
-   *	y = 0.221
-   *	z = 0.47
-   *	Rotation in z-axis = 65˚
-  -	Scaling:
-   *	x = 0.05
-   * y = 0.11
-   *	z = 0.075
+   -	Position:
+     *	x = -0.146
+     *	y = 0.221
+     *	z = 0.47
+     *	Rotation in z-axis = 65˚
+   -	Scaling:
+     *	x = 0.05
+     * y = 0.11
+     *	z = 0.075
 For right brow, copy ‘Left Brow’ object and change x-position value to 0.146 and z-rotation to -65˚.  
 Next various steps are related to creating the leaf crown, which is comprised of sphere objects with different scaling values.  The scaling and position values for all sphere objects used are presented below.  Photo showcasing the Leaf Kirby variant will contain all additional sphere objects for the crown.  
 -	‘Main Leaf’ 
