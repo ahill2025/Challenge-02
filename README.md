@@ -532,7 +532,7 @@ To create the pupils, follow the same instructions as with 'Main Kirby'
 Create a capsule game object for hat rim.  Rename the object to ‘Rim’.  Following are the scaling and position values:
 
 
-- ‘Rim’ (Capsule)  
+- ‘Rim’
   - Position:  
     - x = 0  
     - y = 0.1345  
@@ -658,7 +658,7 @@ Then on the 'Import Heightmap' tab, click the select buttoon and choose your rec
 <br>
 <img width="1292" height="1029" alt="Grayscale" src="https://github.com/user-attachments/assets/acadd090-9f13-4091-85d8-8067eb6e29df" />
 <br>
-<img width="975" height="630" alt="Grayscale Mold" src="https://github.com/user-attachments/assets/cb9727db-659b-485c-b922-bd33df15ec9f" />
+<img width="602" height="612" alt="Grayscale Mold" src="https://github.com/user-attachments/assets/5988205d-fd05-4e83-b2d9-0391203cd49d" />
 <br>
 
 Add some texture to your terrain by clicking on your new Terrain object.  On the Inspector pane, click 'Paint Terrain' -> 'Paint Texture' and go down to 'Layers'.  Once there, add two layers, one for the base of terrain and the other as an additive to brush on your terrain.  
