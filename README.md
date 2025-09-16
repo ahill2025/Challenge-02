@@ -3,7 +3,9 @@ Contains process to completing Challenge 02
 
 The task for challenge 02 is to create a Kirby model, along with variants and place them in a terrain built with a heightmap.
 <br>
-Before starting our design of Kirby, let's create the colors we'll be using to color our finished PreFab and Variants.  For this, we can go to the assets pane, right-click and select Create->Material.
+Before we proceed in creating our Kirbies, we're going to need colors to color our finished PreFab and Variants.
+<br><br>
+For this, we can go to the assets pane, right-click and select Create->Material.
 
 <img width="369" height="1046" alt="New Material" src="https://github.com/user-attachments/assets/a7973f05-d89a-45a6-b490-e652a8f8b225" />
 
