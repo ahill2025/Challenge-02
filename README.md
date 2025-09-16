@@ -15,7 +15,7 @@ Choose a sphere GameObject and place it on position (0,0,0) and keep scaling val
    
 
 After setting these values, copy ‘Left Leg’ object and change x-position value to 0.28 and y-axis rotation to -25˚.  Create another sphere GameObject for Kirby’s arm, call it ‘Right Arm’.  Use the following scaling and position values:
-  *	 Position:
+  *	Position:
    -	x = 0.455
    -	y = -0.026
    -	z = 0.1
