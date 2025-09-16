@@ -18,15 +18,15 @@ Choose a sphere GameObject and place it on position (0,0,0) and keep scaling val
 After setting these values, copy ‘Left Leg’ object and change x-position value to 0.28 and y-axis rotation to -25˚.  Create another sphere GameObject for Kirby’s arm, call it ‘Right Arm’.  Use the following scaling and position values:
 
   *	Position:
-   -	x = 0.455
-   -	y = -0.026
-   -	z = 0.1
-   -	Rotation in y-axis = -22˚
-   -	Rotation in z-axis = -11˚
+    -	x = 0.455
+    -	y = -0.026
+    -	z = 0.1
+    -	Rotation in y-axis = -22˚
+    -	Rotation in z-axis = -11˚
   *	Scaling:
-   -	x = 0.5
-   -	y = 0.3
-   -	z = 0.3
+    -	x = 0.5
+    -	y = 0.3
+    -	z = 0.3
 
 
 Like with Kirby’s legs, copy ‘Right Arm’ object and change x-position to -0.455, y-axis rotation to 22˚, and z-axis rotation to 11˚ to obtain symmetrical placing of arms.  Finally, create a capsule GameObject for right eye called ‘Right Eye’.  These are the scaling and position values used for Kirby:
