@@ -45,7 +45,8 @@ The following are the scaling and position values for the 'Main Kirby''s left le
   - Red 
 <br>
 After setting these values, copy ‘Left Leg’ object, call it 'Right Leg', and change x-position value to 0.28 and y-axis rotation to -25˚.  
-<br />
+
+
 Create another sphere GameObject for the arm, call it ‘Right Arm’. Use the following scaling and position values:
 
 - Position:
