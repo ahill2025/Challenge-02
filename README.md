@@ -161,7 +161,7 @@ Change scaling and position values to the following:
     - z = 0.075
   - Color: Black
 
-For right brow, copy **‘Left Brow’** object and change x-position value to 0.146 and z-rotation to -65˚.  
+Create **'Right Brow'** by copying the **‘Left Brow’** object and changing its x-position value to 0.146, along with z-rotation to -65˚.  
 To create the pupils, follow the same instructions as with **'Main Kirby'**
 
 Next various steps are related to creating the leaf crown, which is comprised of sphere objects with different scaling values.  
