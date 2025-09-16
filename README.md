@@ -655,6 +655,12 @@ After installing, go to Windows -> Terrain -> Terrain toolbox and a new window w
 
 Then on the 'Import Heightmap' tab, click the select buttoon and choose your recently dragged image.  Finally, click create to see your new terrain!  
 
+<br>
+<img width="1292" height="1029" alt="Grayscale" src="https://github.com/user-attachments/assets/acadd090-9f13-4091-85d8-8067eb6e29df" />
+<br>
+<img width="975" height="630" alt="Grayscale Mold" src="https://github.com/user-attachments/assets/cb9727db-659b-485c-b922-bd33df15ec9f" />
+<br>
+
 Add some texture to your terrain by clicking on your new Terrain object.  On the Inspector pane, click 'Paint Terrain' -> 'Paint Texture' and go down to 'Layers'.  Once there, add two layers, one for the base of terrain and the other as an additive to brush on your terrain.  
 
 <br><br>
