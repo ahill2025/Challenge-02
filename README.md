@@ -66,7 +66,7 @@ Create another sphere GameObject for the arm, call it ‘Right Arm’. Use the f
 <br>
 Copy the ‘Right Arm’ object and change x-position to -0.455, y-axis rotation to 22˚, and z-axis rotation to 11˚ to obtain symmetrical placing of arms.  
 
-Create capsule GameObject for right eye called ‘Right Eye’. These are the scaling and position values used for Kirby:
+Create capsule GameObject for right eye called ‘Right Eye’. These are their the scaling and position values:
 
 - Position:
   - x = 0.1  
@@ -84,7 +84,7 @@ Create capsule GameObject for right eye called ‘Right Eye’. These are the sc
 
 Copy ‘Right Eye’ object, call it ‘Left Eye', and change x-position to -0.1. 
 
-Finally, create a sphere object for the right eye's pupil, call it 'Right Pupil'.  Apply the following values to position object adequately.  
+Finally, create a sphere object for the right eye's pupil, call it 'Right Pupil'.  Apply the following inputs to position values: 
 - Position:
   - x = 0.1  
   - y = 0.13  
