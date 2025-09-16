@@ -4,16 +4,16 @@ Contains process to completing Challenge 02
 ## Creating your Base Kirby
 Choose a sphere GameObject and place it on position (0,0,0) and keep scaling values at (1,1,1).  
 
-Copy the sphere object once and scale it to act as Kirby’s foot, call it **‘Left Leg’**.  
+Copy the sphere object once and scale it to act as Kirby’s foot, call it ‘Left Leg’.  
 The following are the scaling and position values for the standard Kirby’s left leg:
 
-- **Position:**
+- Position:
   - x = -0.28  
   - y = -0.375  
   - z = 0.08  
   - Rotation in y-axis = 25˚  
 
-- **Scaling:**
+- Scaling:
   - x = 0.6  
   - y = 0.4  
   - z = 0.9  
@@ -22,14 +22,14 @@ After setting these values, copy ‘Left Leg’ object and change x-position val
 
 Create another sphere GameObject for Kirby’s arm, call it **‘Right Arm’**. Use the following scaling and position values:
 
-- **Position:**
+- Position:
   - x = 0.455  
   - y = -0.026  
   - z = 0.1  
   - Rotation in y-axis = -22˚  
   - Rotation in z-axis = -11˚  
 
-- **Scaling:**
+- Scaling:
   - x = 0.5  
   - y = 0.3  
   - z = 0.3  
@@ -38,18 +38,18 @@ Like with Kirby’s legs, copy ‘Right Arm’ object and change x-position to -
 
 Finally, create a capsule GameObject for right eye called **‘Right Eye’**. These are the scaling and position values used for Kirby:
 
-- **Position:**
+- Position:
   - x = 0.1  
   - y = 0.1  
   - z = 0.4625  
   - Rotation in x-axis = -11˚  
 
-- **Scaling:**
+- Scaling:
   - x = 0.11  
   - y = 0.1125  
   - z = 0.1  
 
-Copy ‘Right Eye’ object, call it **‘Left Eye’**, and change x-position to -0.1.  
+Copy ‘Right Eye’ object, call it ‘Left Eye’, and change x-position to -0.1.  
 
 Once you have finished creating your Main Kirby, drag it to Assets pane to create PreFab.  
 The challenge asks to create four Kirby variants:  
@@ -58,19 +58,20 @@ The challenge asks to create four Kirby variants:
 - Sleeping Kirby  
 - Mini Kirby  
 
----
+<><><>
 
-## Leaf Kirby
+'Leaf Kirby'
+
 Drag Main Kirby PreFab to Scene and position it at (0,0,0). Modify leg and arm objects position values to simulate a jumping animation.  
 
-- **‘Right Leg’ Position:**
+- ‘Right Leg’ Position:
   - x = 0.215  
   - y = -0.325  
   - z = 0.26  
   - Rotation in x-axis = -16.325˚  
   - Rotation in y-axis = 25˚  
 
-- **‘Left Leg’ Position:**
+- ‘Left Leg’ Position:
   - x = -0.2  
   - y = -0.33  
   - z = 0.225  
@@ -78,7 +79,7 @@ Drag Main Kirby PreFab to Scene and position it at (0,0,0). Modify leg and arm o
   - Rotation in y-axis = 32˚  
   - Rotation in z-axis = 45.5˚  
 
-- **‘Right Arm’ Position:**
+- ‘Right Arm’ Position:
   - x = -0.2  
   - y = -0.33  
   - z = 0.225  
@@ -86,7 +87,7 @@ Drag Main Kirby PreFab to Scene and position it at (0,0,0). Modify leg and arm o
   - Rotation in y-axis = 32˚  
   - Rotation in z-axis = 45.5˚  
 
-- **‘Left Arm’ Position:**
+- ‘Left Arm’ Position:
   - x = -0.47  
   - y = -0.015  
   - z = -0.115  
@@ -97,13 +98,13 @@ Drag Main Kirby PreFab to Scene and position it at (0,0,0). Modify leg and arm o
 Copy ‘Left Eye’ capsule object to create left brow, call the new object **‘Left Brow’**.  
 Change scaling and position values to the following:
 
-- **‘Left Brow’**
-  - **Position:**
+- ‘Left Brow’
+  - Position:
     - x = -0.146  
     - y = 0.221  
     - z = 0.47  
     - Rotation in z-axis = 65˚  
-  - **Scaling:**
+  - Scaling:
     - x = 0.05  
     - y = 0.11  
     - z = 0.075  
@@ -113,171 +114,399 @@ For right brow, copy ‘Left Brow’ object and change x-position value to 0.146
 Next various steps are related to creating the leaf crown, which is comprised of sphere objects with different scaling values.  
 The scaling and position values for all sphere objects used are presented below.  
 
-### Leaf Crown Objects
-- **‘Main Leaf’**
-  - Position: (0, 0.607, 0.448)  
-  - Scaling: (0.5, 0.87, 0.05)  
+Leaf Crown Objects
 
-- **‘Gem’**
-  - Position: (0, 0.341, 0.467)  
-  - Scaling: (0.21, 0.275, 0.05)  
+- ‘Main Leaf’  
+  - Position:  
+    - x = 0  
+    - y = 0.607  
+    - z = 0.448  
+  - Scaling:  
+    - x = 0.5  
+    - y = 0.87  
+    - z = 0.05  
 
-- **‘Right Side Small Leaf’**
-  - Position: (0.385, 0.258, 0.43)  
-  - Rotation: z = -165˚  
-  - Scaling: (0.52, 0.16, 0.05)  
+- ‘Gem’  
+  - Position:  
+    - x = 0  
+    - y = 0.341  
+    - z = 0.467  
+  - Scaling:  
+    - x = 0.21  
+    - y = 0.275  
+    - z = 0.05  
 
-- **‘Left Side Small Leaf’**
-  - Position: (-0.385, 0.258, 0.43)  
-  - Rotation: z = -165˚  
-  - Scaling: (0.52, 0.16, 0.05)  
+- ‘Right Side Small Leaf’  
+  - Position:  
+    - x = 0.385  
+    - y = 0.258  
+    - z = 0.43  
+    - Rotation in z-axis = -165˚  
+  - Scaling:  
+    - x = 0.52  
+    - y = 0.16  
+    - z = 0.05  
 
-- **‘Right Main Leaf’**
-  - Position: (0.225, 0.372, 0.388)  
-  - Rotation: z = -44˚  
-  - Scaling: (0.3775, 1.0625, 0.05)  
+- ‘Left Side Small Leaf’  
+  - Position:  
+    - x = -0.385  
+    - y = 0.258  
+    - z = 0.43  
+    - Rotation in z-axis = -165˚  
+  - Scaling:  
+    - x = 0.52  
+    - y = 0.16  
+    - z = 0.05  
 
-- **‘Left Main Leaf’**
-  - Position: (-0.225, 0.372, 0.388)  
-  - Rotation: z = 44˚  
-  - Scaling: (0.3775, 1.0625, 0.05)  
+- ‘Right Main Leaf’  
+  - Position:  
+    - x = 0.225  
+    - y = 0.372  
+    - z = 0.388  
+    - Rotation in z-axis = -44˚  
+  - Scaling:  
+    - x = 0.3775  
+    - y = 1.0625  
+    - z = 0.05  
 
-- **‘Crown Right 1’**  
-  - Position: (0.338, 0.497, 0.205)  
-  - Rotation: x = -8˚, y = 62˚, z = -20˚  
-  - Scaling: (0.333, 0.60, 0.05)  
+- ‘Left Main Leaf’  
+  - Position:  
+    - x = -0.225  
+    - y = 0.372  
+    - z = 0.388  
+    - Rotation in z-axis = 44˚  
+  - Scaling:  
+    - x = 0.3775  
+    - y = 1.0625  
+    - z = 0.05  
 
-- **‘Crown Right 2’**  
-  - Position: (0.4, 0.5, -0.1)  
-  - Rotation: x = -1˚, y = 90˚, z = -21˚  
-  - Scaling: (0.325, 0.55, 0.05)  
+- ‘Crown Right 1’  
+  - Position:  
+    - x = 0.338  
+    - y = 0.497  
+    - z = 0.205  
+    - Rotation in x-axis = -8˚  
+    - Rotation in y-axis = 62˚  
+    - Rotation in z-axis = -20˚  
+  - Scaling:  
+    - x = 0.333  
+    - y = 0.60  
+    - z = 0.05  
 
-- **‘Crown Right 3’**  
-  - Position: (0.28, 0.45, -0.345)  
-  - Rotation: x = -6˚, y = -46˚, z = 11˚  
-  - Scaling: (0.375, 0.5, 0.05)  
+- ‘Crown Right 2’  
+  - Position:  
+    - x = 0.4  
+    - y = 0.5  
+    - z = -0.1  
+    - Rotation in x-axis = -1˚  
+    - Rotation in y-axis = 90˚  
+    - Rotation in z-axis = -21˚  
+  - Scaling:  
+    - x = 0.325  
+    - y = 0.55  
+    - z = 0.05  
 
-- **‘Crown Left 1’**  
-  - Position: (0.338, 0.497, 0.205)  
-  - Rotation: x = -8˚, y = 62˚, z = -20˚  
-  - Scaling: (0.333, 0.60, 0.05)  
+- ‘Crown Right 3’  
+  - Position:  
+    - x = 0.28  
+    - y = 0.45  
+    - z = -0.345  
+    - Rotation in x-axis = -6˚  
+    - Rotation in y-axis = -46˚  
+    - Rotation in z-axis = 11˚  
+  - Scaling:  
+    - x = 0.375  
+    - y = 0.5  
+    - z = 0.05  
 
-- **‘Crown Left 2’**  
-  - Position: (0.4, 0.5, -0.1)  
-  - Rotation: x = -1˚, y = 90˚, z = -21˚  
-  - Scaling: (0.325, 0.55, 0.05)  
+- ‘Crown Left 1’  
+  - Position:  
+    - x = 0.338  
+    - y = 0.497  
+    - z = 0.205  
+    - Rotation in x-axis = -8˚  
+    - Rotation in y-axis = 62˚  
+    - Rotation in z-axis = -20˚  
+  - Scaling:  
+    - x = 0.333  
+    - y = 0.60  
+    - z = 0.05  
 
-- **‘Crown Left 3’**  
-  - Position: (-0.28, 0.45, -0.345)  
-  - Rotation: x = -6˚, y = -46˚, z = 11˚  
-  - Scaling: (0.375, 0.5, 0.05)  
+- ‘Crown Left 2’  
+  - Position:  
+    - x = 0.4  
+    - y = 0.5  
+    - z = -0.1  
+    - Rotation in x-axis = -1˚  
+    - Rotation in y-axis = 90˚  
+    - Rotation in z-axis = -21˚  
+  - Scaling:  
+    - x = 0.325  
+    - y = 0.55  
+    - z = 0.05  
 
-- **‘Crown Rear’**  
-  - Position: (0, 0.47, -0.48)  
-  - Rotation: x = -10˚  
-  - Scaling: (0.35, 0.62, 0.05)  
+- ‘Crown Left 3’  
+  - Position:  
+    - x = -0.28  
+    - y = 0.45  
+    - z = -0.345  
+    - Rotation in x-axis = -6˚  
+    - Rotation in y-axis = -46˚  
+    - Rotation in z-axis = 11˚  
+  - Scaling:  
+    - x = 0.375  
+    - y = 0.5  
+    - z = 0.05  
 
-- **Leaf Projectiles**  
+- ‘Crown Rear’  
+  - Position:  
+    - x = 0  
+    - y = 0.47  
+    - z = -0.48  
+    - Rotation in x-axis = -10˚  
+  - Scaling:  
+    - x = 0.35  
+    - y = 0.62  
+    - z = 0.05  
 
----
+- Leaf Projectiles  
 
-## Freeze Kirby
+
+
+'Freeze Kirby'
+
 Drag Main Kirby PreFab to Scene and position it at (0,0,0).  
 
-Create a sphere GameObject, call it **‘Coat’**:
+Create a sphere GameObject, call it ‘Coat’:  
+- Position:  
+  - x = 0  
+  - y = 0  
+  - z = -0.13  
+- Scaling:  
+  - x = 1.3  
+  - y = 1.2  
+  - z = 1.15  
 
-- **‘Coat’**
-  - Position: (0,0,-0.13)  
-  - Scaling: (1.3,1.2,1.15)  
+Then create sphere objects for the coat shearling. Copy and paste this object with the following scaling values and position them to create a circle encompassing your Freeze Kirby.  
 
-Then create sphere objects for the coat shearling. Copy and paste this object with the following values to create a circle:
+- Scaling Values:  
+  - x = 0.35  
+  - y = 0.35  
+  - z = 0.35  
 
-- **Scaling:** (0.35,0.35,0.35)  
-- **Positions:**  
-  - Sphere 1: (0, 0.5, 0.4)  
-  - Sphere 2: (0.285, 0.35, 0.4)  
-  - Sphere 3: (0.4, 0.06, 0.4)  
-  - Sphere 4: (0.3, -0.225, 0.4)  
-  - Sphere 5: (0, -0.33, 0.4)  
-  - Sphere 6: (-0.3, 0.225, 0.4)  
-  - Sphere 7: (-0.4, 0.06, 0.4)  
-  - Sphere 8: (-0.285, 0.35, 0.4)  
+- Position Values:  
+  - ‘Sphere 1’  
+    - x = 0  
+    - y = 0.5  
+    - z = 0.4  
+  - ‘Sphere 2’  
+    - x = 0.285  
+    - y = 0.35  
+    - z = 0.4  
+  - ‘Sphere 3’  
+    - x = 0.4  
+    - y = 0.06  
+    - z = 0.4  
+  - ‘Sphere 4’  
+    - x = 0.3  
+    - y = -0.225  
+    - z = 0.4  
+  - ‘Sphere 5’  
+    - x = 0  
+    - y = -0.33  
+    - z = 0.4  
+  - ‘Sphere 6’  
+    - x = -0.3  
+    - y = 0.225  
+    - z = 0.4  
+  - ‘Sphere 7’  
+    - x = -0.4  
+    - y = 0.06  
+    - z = 0.4  
+  - ‘Sphere 8’  
+    - x = -0.285  
+    - y = 0.35  
+    - z = 0.4  
 
----
 
-## Sleeping Kirby
+'Sleeping Kirby'
+
 Drag Main Kirby PreFab to Scene and position it at (0,0,0).  
+Modify leg, arm, and eye objects scaling and position values to design Kirby sleeping.    
 
-Modify leg, arm, and eye objects scaling and position values:
+- ‘Right Eye’  
+  - Position:  
+    - x = 0.1  
+    - y = 0.1  
+    - z = 0.47  
+    - Rotation in x-axis = -14.5˚  
+    - Rotation in y-axis = 10˚  
+    - Rotation in z-axis = -3˚  
+  - Scaling:  
+    - x = 0.16  
+    - y = 0.0075  
+    - z = 0.045  
 
-- **‘Right Eye’**  
-  - Position: (0.1, 0.1, 0.47)  
-  - Rotation: x = -14.5˚, y = 10˚, z = -3˚  
-  - Scaling: (0.16, 0.0075, 0.045)  
+- ‘Left Eye’  
+  - Position:  
+    - x = -0.1  
+    - y = 0.1  
+    - z = 0.47  
+    - Rotation in x-axis = -14.5˚  
+    - Rotation in y-axis = -10˚  
+    - Rotation in z-axis = 3˚  
+  - Scaling:  
+    - x = 0.16  
+    - y = 0.0075  
+    - z = 0.045  
 
-- **‘Left Eye’**  
-  - Position: (-0.1, 0.1, 0.47)  
-  - Rotation: x = -14.5˚, y = -10˚, z = 3˚  
-  - Scaling: (0.16, 0.0075, 0.045)  
+- ‘Right Arm’  
+  - Position:  
+    - x = 0.35  
+    - y = -0.15  
+    - z = 0.25  
+    - Rotation in x-axis = -7˚  
+    - Rotation in y-axis = -70˚  
+    - Rotation in z-axis = 9˚  
+  - Scaling:  
+    - x = 0.57  
+    - y = 0.3  
+    - z = 0.4  
 
-- **‘Right Arm’**  
-  - Position: (0.35, -0.15, 0.25)  
-  - Rotation: x = -7˚, y = -70˚, z = 9˚  
-  - Scaling: (0.57, 0.3, 0.4)  
+- ‘Left Arm’  
+  - Position:  
+    - x = -0.35  
+    - y = -0.15  
+    - z = 0.25  
+    - Rotation in x-axis = -7˚  
+    - Rotation in y-axis = 70˚  
+    - Rotation in z-axis = 9˚  
+  - Scaling:  
+    - x = 0.57  
+    - y = 0.3  
+    - z = 0.4  
 
-- **‘Left Arm’**  
-  - Position: (-0.35, -0.15, 0.25)  
-  - Rotation: x = -7˚, y = 70˚, z = 9˚  
-  - Scaling: (0.57, 0.3, 0.4)  
+- ‘Right Leg’  
+  - Position:  
+    - x = 0.285  
+    - y = -0.32  
+    - z = -0.385  
+    - Rotation in x-axis = 135˚  
+    - Rotation in y-axis = -32˚  
+    - Rotation in z-axis = -25˚  
+  - Scaling:  
+    - x = 0.6  
+    - y = 0.4  
+    - z = 0.8  
 
-- **‘Right Leg’**  
-  - Position: (0.285, -0.32, -0.385)  
-  - Rotation: x = 135˚, y = -32˚, z = -25˚  
-  - Scaling: (0.6, 0.4, 0.8)  
+- ‘Left Leg’  
+  - Position:  
+    - x = -0.285  
+    - y = -0.32  
+    - z = -0.385  
+    - Rotation in x-axis = 135˚  
+    - Rotation in y-axis = 32˚  
+    - Rotation in z-axis = 25˚  
+  - Scaling:  
+    - x = 0.6  
+    - y = 0.4  
+    - z = 0.8  
 
-- **‘Left Leg’**  
-  - Position: (-0.285, -0.32, -0.385)  
-  - Rotation: x = 135˚, y = 32˚, z = 25˚  
-  - Scaling: (0.6, 0.4, 0.8)  
+Create a capsule game object for hat rim.  Rename the object to ‘Rim’.  Following are the scaling and position values:
 
-### Hat
-- **‘Rim’ (Capsule)**  
-  - Position: (0, 0.1345, -0.0515)  
-  - Rotation: x = -21˚  
-  - Scaling: (1, 0.1, 1)  
 
-- **‘Beanie’ (Sphere)**  
-  - Position: (0, 0.15575, -0.0575)  
-  - Rotation: x = -80˚  
-  - Scaling: (0.92, 0.9867, 0.8218)  
+- ‘Rim’ (Capsule)  
+  - Position:  
+    - x = 0  
+    - y = 0.1345  
+    - z = -0.0515  
+    - Rotation in x-axis = -21˚  
+  - Scaling:  
+    - x = 1  
+    - y = 0.1  
+    - z = 1
 
-- **‘Pom Pom’ (Sphere)**  
-  - Position: (0, 0.35, -0.58)  
-  - Scaling: (0.2,0.2,0.2)  
 
----
+Next, create the beanie by creating a sphere game object.  Input the position and scaling values shown below:
 
-## Mini Kirby
-Drag Main Kirby prefab, scale down to `(0.25,0.25,0.25)`.  
+- ‘Beanie’ 
+  - Position:  
+    - x = 0  
+    - y = 0.15575  
+    - z = -0.0575  
+    - Rotation in x-axis = -80˚  
+  - Scaling:  
+    - x = 0.92  
+    - y = 0.9867  
+    - z = 0.8218
+   
 
-Adjust arms and legs for floating pose:
+Now, create the game object called ‘Pom Pom’ for the little ball above the beanie with the following position and scaling values.
 
-- **‘Right Leg’**  
-  - Position: (0.2, -0.285, -0.4)  
-  - Rotation: x = 145˚, y = -14˚, z = -25˚  
-  - Scaling: (0.6, 0.4, 0.9)  
 
-- **‘Left Leg’**  
-  - Position: (-0.2, -0.285, -0.4)  
-  - Rotation: x = 145˚, y = 14˚, z = 25˚  
-  - Scaling: (0.6, 0.4, 0.9)  
+- ‘Pom Pom’ (Sphere)  
+  - Position:  
+    - x = 0  
+    - y = 0.35  
+    - z = -0.58  
+  - Scaling:  
+    - x = 0.2  
+    - y = 0.2  
+    - z = 0.2  
 
-- **‘Right Arm’**  
-  - Position: (0.45, -0.025, 0.1)  
-  - Rotation: y = 22˚, z = -11˚  
-  - Scaling: (0.5, 0.3, 0.3)  
 
-- **‘Left Arm’**  
-  - Position: (-0.45, -0.025, -0.1)  
-  - Rotation: y = -22˚, z = 11˚  
-  - Scaling: (0.5, 0.3, 0.3)
+
+'Mini Kirby'
+
+For the last Kirby variant, take the Main Kirby prefab, drag it onto the scene and scale all values down to (0.25, 0.25, 0.25).  
+Next, modify arm and leg position and scaling values to design a floating (jumping) Kirby.  
+
+- ‘Right Leg’  
+  - Position:  
+    - x = 0.2  
+    - y = -0.285  
+    - z = -0.4  
+    - Rotation in x-axis = 145˚  
+    - Rotation in y-axis = -14˚  
+    - Rotation in z-axis = -25˚  
+  - Scaling:  
+    - x = 0.6  
+    - y = 0.4  
+    - z = 0.9  
+
+- ‘Left Leg’  
+  - Position:  
+    - x = -0.2  
+    - y = -0.285  
+    - z = -0.4  
+    - Rotation in x-axis = 145˚  
+    - Rotation in y-axis = 14˚  
+    - Rotation in z-axis = 25˚  
+  - Scaling:  
+    - x = 0.6  
+    - y = 0.4  
+    - z = 0.9  
+
+- ‘Right Arm’  
+  - Position:  
+    - x = 0.45  
+    - y = -0.025  
+    - z = 0.1  
+    - Rotation in y-axis = 22˚  
+    - Rotation in z-axis = -11˚  
+  - Scaling:  
+    - x = 0.5  
+    - y = 0.3  
+    - z = 0.3  
+
+- ‘Left Arm’  
+  - Position:  
+    - x = -0.45  
+    - y = -0.025  
+    - z = -0.1  
+    - Rotation in y-axis = -22˚  
+    - Rotation in z-axis = 11˚  
+  - Scaling:  
+    - x = 0.5  
+    - y = 0.3  
+    - z = 0.3  
