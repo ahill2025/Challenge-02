@@ -4,14 +4,14 @@ Contains process to completing Challenge 02
 Creating your base Kirby:
 Choose a sphere GameObject and place it on position (0,0,0) and keep scaling values at (1,1,1).  Copy the sphere object once and scale it to act as Kirby’s foot, call it ‘Left Leg’.  The following are the scaling and position values for the standard Kirby’s left leg.
 *	Position:
--	x = -0.28
--	y = -0.375
--	z = 0.08
--	Rotation in y-axis = 25˚
+  -	x = -0.28
+  -	y = -0.375
+  -	z = 0.08
+  -	Rotation in y-axis = 25˚
 *	Scaling:
--	x = 0.6
--	y = 0.4
--	z = 0.9
+  -	x = 0.6
+  -	y = 0.4
+  -	z = 0.9
 After setting these values, copy ‘Left Leg’ object and change x-position value to 0.28 and y-axis rotation to -25˚.  Create another sphere GameObject for Kirby’s arm, call it ‘Right Arm’.  Use the following scaling and position values:
 -	 Position:
 o	x = 0.455
