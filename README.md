@@ -25,7 +25,7 @@ Our project required the following colors:
 Now that our colors are set up, begin by creating a sphere GameObject and place it on position (0,0,0) and keep scaling values at (1,1,1).  Copy the sphere object once and scale it to act as the leg, call it ‘Left Leg’.  
 
 
-All GameObjects are children to the main body (in this case, 'Main Kirby'), thus scaling and position values are dependent of the former.Drag your 'Pink' material to color your object.__
+All GameObjects are children to the main body (in this case, 'Main Kirby'), thus scaling and position values are dependent of the former.Drag your 'Pink' material to color your object.
 
 
 The following are the scaling and position values for the 'Main Kirby''s left leg:
