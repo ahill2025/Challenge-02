@@ -57,7 +57,7 @@ Create another sphere GameObject for the arm, call it **‘Right Arm’**. Use t
 - Color:
   - Pink
 
-Like with Kirby’s legs, copy **‘Right Arm’** object and change x-position to -0.455, y-axis rotation to 22˚, and z-axis rotation to 11˚ to obtain symmetrical placing of arms.  
+Copy the **‘Right Arm’** object and change x-position to -0.455, y-axis rotation to 22˚, and z-axis rotation to 11˚ to obtain symmetrical placing of arms.  
 
 Create capsule GameObject for right eye called **‘Right Eye’**. These are the scaling and position values used for Kirby:
 
