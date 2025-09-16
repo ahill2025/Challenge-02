@@ -39,7 +39,7 @@ The following are the scaling and position values for the **'Main Kirby'**'s lef
  
 - Color:
   - Red 
-
+<br>
 After setting these values, copy **‘Left Leg’** object and change x-position value to 0.28 and y-axis rotation to -25˚.  
 
 Create another sphere GameObject for the arm, call it **‘Right Arm’**. Use the following scaling and position values:
@@ -58,7 +58,7 @@ Create another sphere GameObject for the arm, call it **‘Right Arm’**. Use t
  
 - Color:
   - Pink
-
+<br>
 Copy the **‘Right Arm’** object and change x-position to -0.455, y-axis rotation to 22˚, and z-axis rotation to 11˚ to obtain symmetrical placing of arms.  
 
 Create capsule GameObject for right eye called **‘Right Eye’**. These are the scaling and position values used for Kirby:
@@ -75,6 +75,8 @@ Create capsule GameObject for right eye called **‘Right Eye’**. These are th
   - z = 0.1  
 - Color:
   - Black
+ 
+
 Copy **‘Right Eye’** object, call it **‘Left Eye’**, and change x-position to -0.1. 
 
 Finally, create a sphere object for the right eye's pupil, call it **'Right Pupil'**.  Apply the following values to position object adequately.  
@@ -90,6 +92,8 @@ Finally, create a sphere object for the right eye's pupil, call it **'Right Pupi
   - z = 0.05
 - Color:
   - White
+ 
+
 Copy the 'Right Pupil' object, calling it **'Left Pupil'** and change the x-position value to -0.1.  
 
 <img width="1116" height="656" alt="Main Kirby" src="https://github.com/user-attachments/assets/1b049686-037e-48ec-8f07-ba219fd1d66e" />
