@@ -4,7 +4,7 @@ Contains process to completing Challenge 02
 ## Creating your Base Kirby
 Choose a sphere GameObject and place it on position (0,0,0) and keep scaling values at (1,1,1).  
 
-Copy the sphere object once and scale it to act as Kirby’s foot, call it ‘Left Leg’.  
+Copy the sphere object once and scale it to act as Kirby’s foot, call it **‘Left Leg’**.  
 The following are the scaling and position values for the standard Kirby’s left leg:
 
 - Position:
@@ -18,7 +18,7 @@ The following are the scaling and position values for the standard Kirby’s lef
   - y = 0.4  
   - z = 0.9  
 
-After setting these values, copy ‘Left Leg’ object and change x-position value to 0.28 and y-axis rotation to -25˚.  
+After setting these values, copy **‘Left Leg’** object and change x-position value to 0.28 and y-axis rotation to -25˚.  
 
 Create another sphere GameObject for Kirby’s arm, call it **‘Right Arm’**. Use the following scaling and position values:
 
@@ -34,9 +34,9 @@ Create another sphere GameObject for Kirby’s arm, call it **‘Right Arm’**.
   - y = 0.3  
   - z = 0.3  
 
-Like with Kirby’s legs, copy ‘Right Arm’ object and change x-position to -0.455, y-axis rotation to 22˚, and z-axis rotation to 11˚ to obtain symmetrical placing of arms.  
+Like with Kirby’s legs, copy **‘Right Arm’** object and change x-position to -0.455, y-axis rotation to 22˚, and z-axis rotation to 11˚ to obtain symmetrical placing of arms.  
 
-Finally, create a capsule GameObject for right eye called **‘Right Eye’**. These are the scaling and position values used for Kirby:
+Create capsule GameObject for right eye called **‘Right Eye’**. These are the scaling and position values used for Kirby:
 
 - Position:
   - x = 0.1  
@@ -49,7 +49,21 @@ Finally, create a capsule GameObject for right eye called **‘Right Eye’**. T
   - y = 0.1125  
   - z = 0.1  
 
-Copy ‘Right Eye’ object, call it ‘Left Eye’, and change x-position to -0.1.  
+Copy ‘Right Eye’ object, call it ‘Left Eye’, and change x-position to -0.1. 
+
+Finally, create a sphere object for the right eye's pupil, call it **'Right Pupil'**.  Apply the following values to position object adequately.  
+- Position:
+  - x = 0.1  
+  - y = 0.13  
+  - z = 0.492  
+  - Rotation in x-axis = -11˚  
+
+- Scaling:
+  - x = 0.05 
+  - y = 0.1  
+  - z = 0.05
+ 
+Copy the 'Right Pupil' object, calling it **'Left Pupil'** and change the x-position value to -0.1.  
 
 Once you have finished creating your Main Kirby, drag it to Assets pane to create PreFab.  
 The challenge asks to create four Kirby variants:  
