@@ -7,7 +7,7 @@ Before starting our design of Kirby, let's create the colors we'll be using to c
 
 <img width="369" height="1046" alt="New Material" src="https://github.com/user-attachments/assets/a7973f05-d89a-45a6-b490-e652a8f8b225" />
 
-<br>
+<br><br>
 Our project required the following colors:
 - Colors:
   - Red
