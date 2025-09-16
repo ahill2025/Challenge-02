@@ -2,8 +2,25 @@
 Contains process to completing Challenge 02
 
 The task for challenge 02 is to create a Kirby model, along with variants and place them in a terrain built with a heightmap.
-Begin by creating a sphere GameObject and place it on position (0,0,0) and keep scaling values at (1,1,1).   All GameObjects are children to the main body (in this case, 'Main Kirby'), thus scaling and position values are dependent of the former.  
+Before starting our design of Kirby, let's create the colors we'll be using to color our finished PreFab and Variants.  For this, we can go to the assets pane, right-click and select Create->Material.
 
+<img width="369" height="1046" alt="New Material" src="https://github.com/user-attachments/assets/a7973f05-d89a-45a6-b490-e652a8f8b225" />
+
+<br>
+Our project required the following colors:
+- Colors:
+  - Red
+  - Pink
+  - Black
+  - White
+  - Green
+  - Indigo (modified with slider)
+  - Pale Green
+  - Chartreuse Green
+  - Yellow-Green
+
+Now that our colors as set up, begin by creating a sphere GameObject and place it on position (0,0,0) and keep scaling values at (1,1,1). Drag your 'Pink' material to color Kirby.  
+All GameObjects are children to the main body (in this case, 'Main Kirby'), thus scaling and position values are dependent of the former.  
 Copy the sphere object once and scale it to act as the leg, call it **‘Left Leg’**.  
 The following are the scaling and position values for the **'Main Kirby'**'s left leg:
 
@@ -16,7 +33,10 @@ The following are the scaling and position values for the **'Main Kirby'**'s lef
 - Scaling:
   - x = 0.6  
   - y = 0.4  
-  - z = 0.9  
+  - z = 0.9
+ 
+- Color:
+  - Red 
 
 After setting these values, copy **‘Left Leg’** object and change x-position value to 0.28 and y-axis rotation to -25˚.  
 
@@ -32,7 +52,10 @@ Create another sphere GameObject for the arm, call it **‘Right Arm’**. Use t
 - Scaling:
   - x = 0.5  
   - y = 0.3  
-  - z = 0.3  
+  - z = 0.3
+ 
+- Color:
+  - Pink
 
 Like with Kirby’s legs, copy **‘Right Arm’** object and change x-position to -0.455, y-axis rotation to 22˚, and z-axis rotation to 11˚ to obtain symmetrical placing of arms.  
 
@@ -48,7 +71,8 @@ Create capsule GameObject for right eye called **‘Right Eye’**. These are th
   - x = 0.11  
   - y = 0.1125  
   - z = 0.1  
-
+- Color:
+  - Black
 Copy **‘Right Eye’** object, call it **‘Left Eye’**, and change x-position to -0.1. 
 
 Finally, create a sphere object for the right eye's pupil, call it **'Right Pupil'**.  Apply the following values to position object adequately.  
@@ -62,15 +86,18 @@ Finally, create a sphere object for the right eye's pupil, call it **'Right Pupi
   - x = 0.05 
   - y = 0.1  
   - z = 0.05
- 
+- Color:
+  - White
 Copy the 'Right Pupil' object, calling it **'Left Pupil'** and change the x-position value to -0.1.  
 
-Once you have finished creating your Main Kirby, drag it to Assets pane to create PreFab.  
+<img width="1116" height="656" alt="Main Kirby" src="https://github.com/user-attachments/assets/1b049686-037e-48ec-8f07-ba219fd1d66e" />
+
+Once you have finished creating your **'Main Kirby'**, drag it to Assets pane to create PreFab. 
 The challenge asks to create four Kirby variants:  
 - Leaf Kirby  
 - Freeze Kirby  
 - Sleeping Kirby  
-- Mini Kirby  
+- Mini Kirby
 
 ---
 
@@ -83,7 +110,8 @@ Drag Main Kirby PreFab to Scene and position it at (0,0,0). Modify leg and arm o
   - y = -0.325  
   - z = 0.26  
   - Rotation in x-axis = -16.325˚  
-  - Rotation in y-axis = 25˚  
+  - Rotation in y-axis = 25˚
+  - Color: Red
 
 - ‘Left Leg’ Position:
   - x = -0.2  
@@ -91,7 +119,8 @@ Drag Main Kirby PreFab to Scene and position it at (0,0,0). Modify leg and arm o
   - z = 0.225  
   - Rotation in x-axis = 139˚  
   - Rotation in y-axis = 32˚  
-  - Rotation in z-axis = 45.5˚  
+  - Rotation in z-axis = 45.5˚
+  - Color: Red 
 
 - ‘Right Arm’ Position:
   - x = -0.2  
@@ -99,7 +128,8 @@ Drag Main Kirby PreFab to Scene and position it at (0,0,0). Modify leg and arm o
   - z = 0.225  
   - Rotation in x-axis = 139˚  
   - Rotation in y-axis = 32˚  
-  - Rotation in z-axis = 45.5˚  
+  - Rotation in z-axis = 45.5˚
+  - Color: Pink
 
 - ‘Left Arm’ Position:
   - x = -0.47  
@@ -107,7 +137,8 @@ Drag Main Kirby PreFab to Scene and position it at (0,0,0). Modify leg and arm o
   - z = -0.115  
   - Rotation in x-axis = 24.6˚  
   - Rotation in y-axis = -65˚  
-  - Rotation in z-axis = 6.5˚  
+  - Rotation in z-axis = 6.5˚
+  - Color: Pink
 
 Copy **‘Left Eye’** capsule object to create left brow, call the new object **‘Left Brow’**.  
 Change scaling and position values to the following:
@@ -121,7 +152,8 @@ Change scaling and position values to the following:
   - Scaling:
     - x = 0.05  
     - y = 0.11  
-    - z = 0.075  
+    - z = 0.075
+  - Color: Black
 
 For right brow, copy **‘Left Brow’** object and change x-position value to 0.146 and z-rotation to -65˚.  
 To create the pupils, follow the same instructions as with **'Main Kirby'**
@@ -139,7 +171,9 @@ The scaling and position values for all sphere objects used are presented below.
   - Scaling:  
     - x = 0.5  
     - y = 0.87  
-    - z = 0.05  
+    - z = 0.05
+   
+  - Color: Green 
 
 - ‘Gem’  
   - Position:  
@@ -149,7 +183,9 @@ The scaling and position values for all sphere objects used are presented below.
   - Scaling:  
     - x = 0.21  
     - y = 0.275  
-    - z = 0.05  
+    - z = 0.05
+   
+  - Color: Chartreuse Green 
 
 - ‘Right Side Small Leaf’  
   - Position:  
@@ -160,7 +196,9 @@ The scaling and position values for all sphere objects used are presented below.
   - Scaling:  
     - x = 0.52  
     - y = 0.16  
-    - z = 0.05  
+    - z = 0.05
+   
+  - Color: Green
 
 - ‘Left Side Small Leaf’  
   - Position:  
@@ -171,7 +209,9 @@ The scaling and position values for all sphere objects used are presented below.
   - Scaling:  
     - x = 0.52  
     - y = 0.16  
-    - z = 0.05  
+    - z = 0.05
+   
+  - Color: Green
 
 - ‘Right Main Leaf’  
   - Position:  
@@ -182,7 +222,9 @@ The scaling and position values for all sphere objects used are presented below.
   - Scaling:  
     - x = 0.3775  
     - y = 1.0625  
-    - z = 0.05  
+    - z = 0.05
+   
+  - Color: Yellow-Green 
 
 - ‘Left Main Leaf’  
   - Position:  
@@ -193,7 +235,9 @@ The scaling and position values for all sphere objects used are presented below.
   - Scaling:  
     - x = 0.3775  
     - y = 1.0625  
-    - z = 0.05  
+    - z = 0.05
+   
+  - Color: Yellow-Green 
 
 - ‘Crown Right 1’  
   - Position:  
@@ -206,7 +250,10 @@ The scaling and position values for all sphere objects used are presented below.
   - Scaling:  
     - x = 0.333  
     - y = 0.60  
-    - z = 0.05  
+    - z = 0.05
+   
+  - Color: Green
+ 
 
 - ‘Crown Right 2’  
   - Position:  
@@ -219,7 +266,9 @@ The scaling and position values for all sphere objects used are presented below.
   - Scaling:  
     - x = 0.325  
     - y = 0.55  
-    - z = 0.05  
+    - z = 0.05
+   
+  - Color: Yellow-Green
 
 - ‘Crown Right 3’  
   - Position:  
@@ -232,7 +281,9 @@ The scaling and position values for all sphere objects used are presented below.
   - Scaling:  
     - x = 0.375  
     - y = 0.5  
-    - z = 0.05  
+    - z = 0.05
+   
+  - Color: Green
 
 - ‘Crown Left 1’  
   - Position:  
@@ -245,7 +296,9 @@ The scaling and position values for all sphere objects used are presented below.
   - Scaling:  
     - x = 0.333  
     - y = 0.60  
-    - z = 0.05  
+    - z = 0.05
+   
+  - Color: Green
 
 - ‘Crown Left 2’  
   - Position:  
@@ -258,7 +311,9 @@ The scaling and position values for all sphere objects used are presented below.
   - Scaling:  
     - x = 0.325  
     - y = 0.55  
-    - z = 0.05  
+    - z = 0.05
+   
+  - Color: Yellow-Green
 
 - ‘Crown Left 3’  
   - Position:  
@@ -271,7 +326,9 @@ The scaling and position values for all sphere objects used are presented below.
   - Scaling:  
     - x = 0.375  
     - y = 0.5  
-    - z = 0.05  
+    - z = 0.05
+   
+  - Color: Green
 
 - ‘Crown Rear’  
   - Position:  
@@ -282,9 +339,12 @@ The scaling and position values for all sphere objects used are presented below.
   - Scaling:  
     - x = 0.35  
     - y = 0.62  
-    - z = 0.05  
-
+    - z = 0.05
+   
+  - Color:  Yellow-Green
+<br>
 For the leaf projectiles, create an spherical object called **'Leaf Projectile'** resembling those of the crown pieces and add a stem using a cube object called **'Stem'**.  Make the **'Stem'** object a child object to **'Leaf Projectile'** and modify they y-position value to -0.303.  These were the scaling values for the projectiles, position values are not included since these are not as restricting (can be loose with placement):
+<br>
 - ‘Projectile’  
   - Scaling:  
     - x = 0.3  
@@ -296,13 +356,15 @@ For the leaf projectiles, create an spherical object called **'Leaf Projectile'*
     - x = 0.1  
     - y = 0.057  
     - z = 0.2 
+Color for both is Green.
 
+<img width="1118" height="657" alt="Leaf Kirby" src="https://github.com/user-attachments/assets/497c2be8-6729-4796-a590-c8be67a10072" />
 
 ---
 **Freeze Kirby**
-
+<br>
 Drag Main Kirby PreFab to Scene and position it at (0,0,0).  
-
+<br>
 Create a sphere GameObject, call it **‘Coat’**:  
 - Position:  
   - x = 0  
@@ -311,10 +373,12 @@ Create a sphere GameObject, call it **‘Coat’**:
 - Scaling:  
   - x = 1.3  
   - y = 1.2  
-  - z = 1.15  
-
+  - z = 1.15
+ 
+- Color: Indigo (including both arm objects)
+<br>
 Then create sphere objects for the coat shearling. Copy and paste this object with the following scaling values and position them to create a circle encompassing your Freeze Kirby.  
-
+<br>
 - Scaling Values:  
   - x = 0.35  
   - y = 0.35  
@@ -352,14 +416,18 @@ Then create sphere objects for the coat shearling. Copy and paste this object wi
   - ‘Sphere 8’  
     - x = -0.285  
     - y = 0.35  
-    - z = 0.4  
+    - z = 0.4
+   
+  - Color for sphere objects is White
+<br>
+<img width="1117" height="659" alt="Freeze Kirby" src="https://github.com/user-attachments/assets/748d1053-5df9-4823-b175-35479da01431" />
 
 ---
 **Sleeping Kirby**
-
+<br>
 Drag Main Kirby PreFab to Scene and position it at (0,0,0).  
 Modify leg, arm, and eye objects scaling and position values to design Kirby sleeping.    
-
+<br>
 - ‘Right Eye’  
   - Position:  
     - x = 0.1  
@@ -371,7 +439,9 @@ Modify leg, arm, and eye objects scaling and position values to design Kirby sle
   - Scaling:  
     - x = 0.16  
     - y = 0.0075  
-    - z = 0.045  
+    - z = 0.045
+   
+  - Color: Black 
 
 - ‘Left Eye’  
   - Position:  
@@ -386,9 +456,11 @@ Modify leg, arm, and eye objects scaling and position values to design Kirby sle
     - y = 0.0075  
     - z = 0.045
    
-
+  - Color: Black
+   
+<br>
 To create the pupils, follow the same instructions as with **'Main Kirby'**
-
+<br>
 
 - ‘Right Arm’  
   - Position:  
@@ -401,7 +473,9 @@ To create the pupils, follow the same instructions as with **'Main Kirby'**
   - Scaling:  
     - x = 0.57  
     - y = 0.3  
-    - z = 0.4  
+    - z = 0.4
+   
+  - Color: Pink
 
 - ‘Left Arm’  
   - Position:  
@@ -414,7 +488,9 @@ To create the pupils, follow the same instructions as with **'Main Kirby'**
   - Scaling:  
     - x = 0.57  
     - y = 0.3  
-    - z = 0.4  
+    - z = 0.4
+   
+  - Color: Pink
 
 - ‘Right Leg’  
   - Position:  
@@ -427,7 +503,9 @@ To create the pupils, follow the same instructions as with **'Main Kirby'**
   - Scaling:  
     - x = 0.6  
     - y = 0.4  
-    - z = 0.8  
+    - z = 0.8
+   
+  - Color: Red
 
 - ‘Left Leg’  
   - Position:  
@@ -440,8 +518,11 @@ To create the pupils, follow the same instructions as with **'Main Kirby'**
   - Scaling:  
     - x = 0.6  
     - y = 0.4  
-    - z = 0.8  
-
+    - z = 0.8
+   
+  - Color: Red
+ 
+<br>
 Create a capsule game object for hat rim.  Rename the object to **‘Rim’**.  Following are the scaling and position values:
 
 
@@ -485,6 +566,7 @@ Now, create the game object called **‘Pom Pom’** for the little ball above t
     - z = 0.2  
 
 You can simulate snoring bubbles by simply creating symmetrical spherical objects and placing them to indicate your Kirby variant is asleep.  
+<img width="1118" height="656" alt="Sleeping Kirby" src="https://github.com/user-attachments/assets/b94fb0a1-330e-4fa5-8108-11361c0c6332" />
 
 ---
 **Mini Kirby**
@@ -542,19 +624,38 @@ Next, modify arm and leg position and scaling values to design a floating (jumpi
     - y = 0.3  
     - z = 0.3
    
+<img width="1122" height="656" alt="Mini Kirby" src="https://github.com/user-attachments/assets/e65b2c1b-9a82-4c01-93ea-cbd9a4ae9181" />
 
-
+---
 
 The next step in our challenge is to create a terrain and populate it with our Kirby variants.  Our terrain will be created using a heighmap of a section in Puerto Rico.  
-First, we need a grayscale image of the terrain to be copied.  For this, Tangram Heightmapper application is used.  Once you export the image, go to your Unity project and drag the downloaded image to your assets pane.  Once done, you'll need to download Terrain Tools using the Package Management tab.  
+First, we need a grayscale image of the terrain to be copied.  For this, Tangram Heightmapper application is used.  
+<img width="1538" height="815" alt="Download Terrain Tools" src="https://github.com/user-attachments/assets/fe190c81-ad90-44b4-b5dc-de681e33a223" />
+<br><br>
+Once you export the image, go to your Unity project and drag the downloaded image to your assets pane.  Once done, you'll need to download Terrain Tools using the Package Management tab.  
+
+
 
 After installing, go to Windows -> Terrain -> Terrain toolbox and a new window will appear.  Here, set the length and width with the following values:
 - Length = 250
 - Width = 250
 - Height = 250
 
+
+<br>
+<img width="816" height="676" alt="Terrain Tools Import" src="https://github.com/user-attachments/assets/984cbbe5-cbd6-41ad-adab-8da8c61fcb6c" />
+<br>
+
 Then on the 'Import Heightmap' tab, click the select buttoon and choose your recently dragged image.  Finally, click create to see your new terrain!  
 
-Add some texture to your terrain by clicking on your new Terrain object.  On the Inspector pane, click 'Paint Terrain' -> 'Paint Texture' and go down to 'Layers'.  Once there, add two layers, one for the base of terrain and the other as an additive to brush on your terrain.  Style terrain at your discretion and proceed to place your Kirbies in your newly created world.  
+Add some texture to your terrain by clicking on your new Terrain object.  On the Inspector pane, click 'Paint Terrain' -> 'Paint Texture' and go down to 'Layers'.  Once there, add two layers, one for the base of terrain and the other as an additive to brush on your terrain.  
+
+<br><br>
+Style terrain at your discretion and proceed to place your Kirbies in your newly created world.  
+<br>
+<img width="1120" height="656" alt="Freeze and Mini Kirby" src="https://github.com/user-attachments/assets/1f0eba1b-cd87-4fe7-9d5f-12ab53771e15" />
+<br><br><br>
+<img width="1118" height="655" alt="Leaf and Sleeping Kirby" src="https://github.com/user-attachments/assets/c3afa972-9316-4849-ac29-27843ec9dddb" />
+
 
 
