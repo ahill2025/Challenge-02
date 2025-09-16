@@ -298,7 +298,7 @@ For the leaf projectiles, create an spherical object called **'Leaf Projectile'*
     - z = 0.2 
 
 
-
+---
 **Freeze Kirby**
 
 Drag Main Kirby PreFab to Scene and position it at (0,0,0).  
@@ -354,7 +354,7 @@ Then create sphere objects for the coat shearling. Copy and paste this object wi
     - y = 0.35  
     - z = 0.4  
 
-
+---
 **Sleeping Kirby**
 
 Drag Main Kirby PreFab to Scene and position it at (0,0,0).  
@@ -484,8 +484,9 @@ Now, create the game object called **‘Pom Pom’** for the little ball above t
     - y = 0.2  
     - z = 0.2  
 
+You can simulate snoring bubbles by simply creating symmetrical spherical objects and placing them to indicate your Kirby variant is asleep.  
 
-
+---
 **Mini Kirby**
 
 For the last Kirby variant, take the Main Kirby prefab, drag it onto the scene and scale all values down to (0.25, 0.25, 0.25).  
@@ -539,4 +540,21 @@ Next, modify arm and leg position and scaling values to design a floating (jumpi
   - Scaling:  
     - x = 0.5  
     - y = 0.3  
-    - z = 0.3  
+    - z = 0.3
+   
+
+
+
+The next step in our challenge is to create a terrain and populate it with our Kirby variants.  Our terrain will be created using a heighmap of a section in Puerto Rico.  
+First, we need a grayscale image of the terrain to be copied.  For this, Tangram Heightmapper application is used.  Once you export the image, go to your Unity project and drag the downloaded image to your assets pane.  Once done, you'll need to download Terrain Tools using the Package Management tab.  
+
+After installing, go to Windows -> Terrain -> Terrain toolbox and a new window will appear.  Here, set the length and width with the following values:
+- Length = 250
+- Width = 250
+- Height = 250
+
+Then on the 'Import Heightmap' tab, click the select buttoon and choose your recently dragged image.  Finally, click create to see your new terrain!  
+
+Add some texture to your terrain by clicking on your new Terrain object.  On the Inspector pane, click 'Paint Terrain' -> 'Paint Texture' and go down to 'Layers'.  Once there, add two layers, one for the base of terrain and the other as an additive to brush on your terrain.  Style terrain at your discretion and proceed to place your Kirbies in your newly created world.  
+
+
