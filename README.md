@@ -388,7 +388,7 @@ Create a sphere GameObject, call it ‘Coat’:
  
 - Color: Indigo (including both arm objects)
 <br>
-Then create sphere objects for coat shearling. Copy and paste this object with the following scaling values and position them to create a circle encompassing your Freeze Kirby.  
+Then create sphere objects for coat shearling. Copy and paste this object with the following scaling values and position them to create a circle encompassing your 'Freeze Kirby'.  
 
 - Scaling Values:  
   - x = 0.35  
@@ -436,8 +436,8 @@ Then create sphere objects for coat shearling. Copy and paste this object with t
 ---
 **Sleeping Kirby**
 <br>
-Drag Main Kirby PreFab to Scene and position it at (0,0,0).  
-Modify leg, arm, and eye objects scaling and position values to design Kirby sleeping.    
+Drag 'Main Kirby' PreFab to Scene and position it at (0,0,0).  
+Modify leg, arm, and eye objects scaling and position values to simulate a sleeping Kirby.    
 <br>
 - ‘Right Eye’  
   - Position:  
@@ -534,7 +534,7 @@ To create the pupils, follow the same instructions as with 'Main Kirby'
   - Color: Red
  
 <br>
-Create a capsule game object for hat rim.  Rename the object to ‘Rim’.  Following are the scaling and position values:
+Create a capsule game object for beanie "rim", rename it ‘Rim’.  Following are the scaling and position values:
 
 
 - ‘Rim’
@@ -549,7 +549,7 @@ Create a capsule game object for hat rim.  Rename the object to ‘Rim’.  Foll
     - z = 1
 
 
-Next, create the beanie by creating a sphere game object.  Input the position and scaling values shown below:
+Next, create a sphere game object called 'Beanie'.  Input the position and scaling values shown below:
 
 - ‘Beanie’ 
   - Position:  
@@ -576,13 +576,13 @@ Now, create the game object called ‘Pom Pom’ for the little ball above the b
     - y = 0.2  
     - z = 0.2  
 
-You can simulate snoring bubbles by simply creating symmetrical spherical objects and placing them to indicate your Kirby variant is asleep.  
+You can add snoring bubbles to imply your Kirby is fast asleep.   
 <img width="1118" height="656" alt="Sleeping Kirby" src="https://github.com/user-attachments/assets/b94fb0a1-330e-4fa5-8108-11361c0c6332" />
 
 ---
 **Mini Kirby**
 
-For the last Kirby variant, take the 'Main Kirby' prefab, drag it onto the scene and scale all values down to (0.25, 0.25, 0.25).  
+For the last Kirby variant ('Mini Kirby'), take the 'Main Kirby' prefab, drag it onto the scene and scale all values down to (0.25, 0.25, 0.25).  
 Next, modify arm and leg position and scaling values to simulate a floating (jumping) animation.  
 
 - ‘Right Leg’  
