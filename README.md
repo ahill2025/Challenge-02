@@ -676,4 +676,9 @@ Style terrain at your discretion and proceed to place your Kirbies in your newly
 <img width="1118" height="655" alt="Leaf and Sleeping Kirby" src="https://github.com/user-attachments/assets/c3afa972-9316-4849-ac29-27843ec9dddb" />
 
 
+<br>
 
+Alec Hillman (History and Experience gained):
+
+I don't have a history with Kirby videogames but definitely do when it comes to the Super Smash Bros. franchise.  Some core memories related to the character are playing against my cousin in Super Smash Bros. Melee and Project M, where he would main the character.  
+As for the experience gained in this challenge, the main one was learning how to create a heightmap with a grayscale image.  Another thing was learning how to create colors improve the visuals of shapes and molds, which livens up one's creations.  
