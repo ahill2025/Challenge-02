@@ -681,4 +681,4 @@ Style terrain at your discretion and proceed to place your Kirbies in your newly
 Alec Hillman (History and Experience gained):
 
 I don't have a history with Kirby videogames but definitely do when it comes to the Super Smash Bros. franchise.  Some core memories related to the character are playing against my cousin in Super Smash Bros. Melee and Project M (Super Smash Bros. Brawl Mod), where he would main the character.  
-As for the experience gained in this challenge, the main one was learning how to create a heightmap with a grayscale image.  Another thing was learning how to create colors improve the visuals of shapes and molds, which livens up one's creations.  
+As for the experience gained in this challenge, the main one was learning how to create a heightmap with a grayscale image, thought that was pretty cool.  Another thing was learning how to create colors improve the visuals of shapes and molds, which livens up one's creations.  
