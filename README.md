@@ -666,7 +666,7 @@ Then on the 'Import Heightmap' tab, click the select buttoon and choose your rec
 <img width="602" height="612" alt="Grayscale Mold" src="https://github.com/user-attachments/assets/5988205d-fd05-4e83-b2d9-0391203cd49d" />
 <br>
 
-Add some texture to your terrain by clicking on your new Terrain object.  On the Inspector pane, click 'Paint Terrain' -> 'Paint Texture' and go down to 'Layers'.  Once there, add two layers, one for the base of terrain and the other as an additive to brush on your terrain.  
+Add some texture to your terrain by clicking on your new Terrain object.  In the Inspector pane, click 'Paint Terrain' -> 'Paint Texture' and go down to 'Layers'.  Once there, add two layers, one for the base of terrain and the other as an additive to brush on your terrain.  
 
 <br><br>
 Style terrain at your discretion and proceed to place your Kirbies in your newly created world.  
